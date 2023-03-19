@@ -11,7 +11,7 @@ import { MaterialModule } from './material/material.module';
 import { MenuComponent } from './menu/menu.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { IndiceGenerosComponent } from './generos/indice-generos/indice-generos.component';
-import { CrearGeneroComponent } from './crear-genero/crear-genero.component';
+import { CrearGeneroComponent } from './generos/crear-genero/crear-genero.component';
 import { IndiceActoresComponent } from './actores/indice-actores/indice-actores.component';
 import { CrearActorComponent } from './actores/crear-actor/crear-actor.component';
 import { CrearCineComponent } from './cines/crear-cine/crear-cine.component';
@@ -22,6 +22,8 @@ import { EditarActorComponent } from './actores/editar-actor/editar-actor.compon
 import { EditarCinesComponent } from './cines/editar-cines/editar-cines.component';
 import { EditarPeliculaComponent } from './peliculas/editar-pelicula/editar-pelicula.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { FormularioGeneroComponent } from './generos/formulario-genero/formulario-genero.component';
+import { EditaGeneroComponent } from './generos/edita-genero/edita-genero.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +42,9 @@ import { ReactiveFormsModule } from '@angular/forms';
     RatingComponent,
     EditarActorComponent,
     EditarCinesComponent,
-    EditarPeliculaComponent
+    EditarPeliculaComponent,
+    FormularioGeneroComponent,
+    EditaGeneroComponent
   ],
   imports: [
     BrowserModule,
