@@ -6,17 +6,17 @@ import { IndiceActoresComponent } from './actores/indice-actores/indice-actores.
 import { CrearCineComponent } from './cines/crear-cine/crear-cine.component';
 import { EditarCinesComponent } from './cines/editar-cines/editar-cines.component';
 import { IndiceCineComponent } from './cines/indice-cine/indice-cine.component';
-import { CrearGeneroComponent } from './crear-genero/crear-genero.component';
-import { EditarGeneroComponent } from './generos/editar-genero/editar-genero.component';
+import { CrearGeneroComponent } from './generos/crear-genero/crear-genero.component';
 import { IndiceGenerosComponent } from './generos/indice-generos/indice-generos.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { CrearPeliculaComponent } from './peliculas/crear-pelicula/crear-pelicula.component';
+import { EditaGeneroComponent } from './generos/edita-genero/edita-genero.component';
 
 const routes: Routes = [
   {path:'',component:LandingPageComponent },
   {path:'generos',component:IndiceGenerosComponent},
   {path:'generos/crear',component:CrearGeneroComponent},
-  {path:'generos/editar/:id',component:EditarGeneroComponent},
+  {path:'generos/editar/:id',component:EditaGeneroComponent},
 
   {path:'actores',component:IndiceActoresComponent},
   {path:'actores/crear',component:CrearActorComponent},

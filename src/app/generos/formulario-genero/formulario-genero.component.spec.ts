@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { EditarGeneroComponent } from './editar-genero.component';
+import { FormularioGeneroComponent } from './formulario-genero.component';
 
-describe('EditarGeneroComponent', () => {
-  let component: EditarGeneroComponent;
-  let fixture: ComponentFixture<EditarGeneroComponent>;
+describe('FormularioGeneroComponent', () => {
+  let component: FormularioGeneroComponent;
+  let fixture: ComponentFixture<FormularioGeneroComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ EditarGeneroComponent ]
+      declarations: [ FormularioGeneroComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(EditarGeneroComponent);
+    fixture = TestBed.createComponent(FormularioGeneroComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
